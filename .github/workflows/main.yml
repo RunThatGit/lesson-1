@@ -1,0 +1,8 @@
+name: Hello this is my first GitHub action
+on: push
+jobs:
+  say-hello-to-new-friends:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greetings
+        run: echo "Hello, RunThatGit's Friend!"
