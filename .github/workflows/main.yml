@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greetings
-        run: echo "Hello, RunThatGit's Friend!"
+        run: | 
+          echo "Hello, RunThatGit's Friend!"
+          echo "Hello, RunThatGit's Friend!"
